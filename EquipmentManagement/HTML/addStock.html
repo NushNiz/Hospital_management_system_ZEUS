@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form-v4 by Colorlib</title>
+	<!-- Mobile Specific Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Font-->
+	<link rel="stylesheet" type="text/css" href="../css/opensans-font.css">
+	<link rel="stylesheet" type="text/css" href="../fonts/line-awesome/css/line-awesome.min.css">
+	<!-- Jquery -->
+	<link rel="stylesheet" href="https://jqueryvalidation.org/files/demo/site-demos.css">
+	<!-- Main Style Css -->
+    <link rel="stylesheet" href="../CSS/stock.css"/>
+</head>
+<body style="background-color:aliceblue;">
+	<div class="page-content">
+		<div class="form-v4-content">
+			
+			<form class="form-detail" action="../PHP/insertStock.php" method="POST" id="myform">
+				<h2>Add Stock</h2>
+				
+					<div class="form-row">
+						<label for="id_number">Item ID</label>
+						<input type="text" name="item_id" id="item_id" class="input-text">
+					</div>
+					<div class="form-row">
+						<label for="full_name">Name</label>
+						<input type="text" name="name" id="name" class="input-text">
+					</div>
+
+                    <div class="form-row">
+						<label for="duty_shift">Category</label>
+						<select id="category" name="category">
+							<option value="hygiene_necessary">Hygiene necessary</option>
+							<option value="vaccine">vaccines</option>
+                            <option value="equipment">Equipment</option>
+                            <option value="beds">Beds</option>
+                            <option value="medicine">Medicine</option>
+							<option value="Oxygen Bottles">Oxygen Bottles</option>
+							
+						  </select>
+					</div>
+                   
+                    <div class="form-row">
+						<label for="full_name">Brand</label>
+						<input type="text" name="brand" id="brand" class="input-text">
+					</div>
+				
+				
+
+                <div class="form-row">
+					<label for="age">Quantity</label>
+					<input type="number" name="quantity" id="quantity" class="input-text" required>
+				</div>
+				
+				
+				<div class="form-row-last">
+					<input type="submit" name="submit" class="add_stock" value="Add Stock">
+				</div>
+
+            </div>
+			</form>
+		</div>
+	</div>
+	
+</body>
+</html>

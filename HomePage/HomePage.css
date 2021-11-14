@@ -1,0 +1,55 @@
+
+.topnav {
+    overflow: hidden;
+    background-color: #D1CCCC;
+    
+  }
+  
+
+  .topnav #myLinks {
+    display: none;
+  }
+  
+
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  
+  .topnav a.icon {
+    background: #D1CCCC;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+ 
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+ 
+  .active {
+    background-color: #2E8BC0;
+    color: white;
+  }
+
+  .LogoNav{
+    width:250px;
+    height: 250px;
+  }
+
+  .imgwh{
+    height: 800px;
+    width: 100%;
+  }
+
+  .headingHome{
+    text-align: center;
+  }

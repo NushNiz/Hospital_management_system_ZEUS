@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIN</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="footer.css">
+
+    <link rel="stylesheet" type="text/css" href="login.css"/> 
+    <script src="login.js"></script>
+
+</head>
+<body>
+
+ 
+    <h2>Login Page</h2>
+    <img src="../HomePage/Images/NavLogo.png" style="position:absolute;width:300px;margin-left: 48px;">
+    <div class="login">    
+    <form id="login" method="POST" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label >    
+        <input type="text" name="userName" id="Uname" placeholder="Username" required>    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="password" id="Pass" placeholder="Password" required>    
+        <br><br>    
+        <input type="submit" onclick="validate()" name="submit" id="log" value="Log In Here"></input>       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+        
+    </form>     
+</div> 
+
+
+
+<footer class="footer-distributed">
+  
+    <div class="footer-left">
+    
+    <h3>Zeus<span>Hospitals</span></h3>
+    
+    
+    
+    <p class="footer-company-name">ZeusHospitals &copy; 2021</p>
+    </div>
+    
+    <div class="footer-center">
+    
+    <div>
+    <i class="fa fa-map-marker"></i>
+    <p><span>34th Street</span> Colombo, Sri Lanka</p>
+    </div>
+    
+    <div>
+    <i class="fa fa-phone"></i>
+    <p>+94 112222230</p>
+    </div>
+    
+    <div>
+    <i class="fa fa-envelope"></i>
+    <p><a href="#">zeushospitals@nih.gov</a></p>
+    </div>
+    
+    </div>
+    
+    <div class="footer-right">
+    
+    <p class="footer-company-about">
+    <span>About ZEUS</span>
+    We provide  affordable and convenient health management programs to help you bounce back to normalcy after Covid.
+    </p>
+    
+    <div class="footer-icons">
+    
+    <a href="www.facebook.com"><i class="fa fa-facebook"></i></a>
+    <a href="www.twitter.com"><i class="fa fa-twitter"></i></a>
+    <a href="www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+    <a href="www.github.com"><i class="fa fa-github"></i></a>
+    
+    </div>
+    
+    </div>
+    
+    </footer>
+</body>
+</html>
